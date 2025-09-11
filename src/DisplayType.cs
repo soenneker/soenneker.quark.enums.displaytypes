@@ -25,7 +25,7 @@ public partial class DisplayType
     public static readonly DisplayType Block = new("block");
 
     /// <summary>
-    /// The element generates a block-level box that flows with surrounding content as if it were a single inline box.
+    /// The element generates a block-level box that flows with surrounding content as if it were a single inline box. 
     /// </summary>
     public static readonly DisplayType InlineBlock = new("inline-block");
 
