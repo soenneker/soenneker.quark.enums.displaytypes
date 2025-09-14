@@ -1,4 +1,5 @@
 ﻿using Intellenum;
+using Soenneker.Quark.Enums.GlobalKeywords;
 
 namespace Soenneker.Quark.Enums.DisplayTypes;
 
@@ -159,18 +160,6 @@ public partial class DisplayType
     /// </summary>
     public static readonly DisplayType Subgrid = new("subgrid");
 
-    /// <summary>
-    /// The element inherits the display value from its parent element.
-    /// </summary>
-    public static readonly DisplayType Inherit = new("inherit");
 
-    /// <summary>
-    /// The element uses the initial value of the display property (typically 'inline' for most elements).
-    /// </summary>
-    public static readonly DisplayType Initial = new("initial");
-
-    /// <summary>
-    /// The element resets the display property to its inherited value if it inherits, or to its initial value if it doesn't.
-    /// </summary>
-    public static readonly DisplayType Unset = new("unset");
+    public static implicit operator DisplayType(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
