@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.DisplayTypes;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// An enumeration for Quark, representing HTML display style values.
