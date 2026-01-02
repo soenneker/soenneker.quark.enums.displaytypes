@@ -18,7 +18,7 @@
         <AssemblyName>Soenneker.Quark.Enums.DisplayTypes</AssemblyName>
         <PackageId>Soenneker.Quark.Enums.DisplayTypes</PackageId>
         <PackageTags>quark enums displaytypes html elements blazor ui wrapper displaytype enum csharp dotnet c# .net</PackageTags>
-        <Copyright>Copyright © 2025 Jake Soenneker</Copyright>
+        <Copyright>Copyright © 2025-2026 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
