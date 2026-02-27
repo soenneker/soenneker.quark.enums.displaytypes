@@ -7,6 +7,7 @@ namespace Soenneker.Quark.Enums;
 /// This enum contains all valid CSS display property values for use in HTML/CSS styling.
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class DisplayKeyword
 {
     /// <summary>
@@ -158,7 +159,4 @@ public partial class DisplayKeyword
     /// The element generates a subgrid container box that participates in the grid layout of its parent.
     /// </summary>
     public static readonly DisplayKeyword Subgrid = new("subgrid");
-
-
-    public static implicit operator DisplayKeyword(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
