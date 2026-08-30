@@ -3,13 +3,13 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// Represents the display enum.
+/// Provides complete Tailwind display utility tokens.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class DisplayEnum
 {
     /// <summary>
-    /// The none.
+    /// Hides the element with Tailwind's <c>hidden</c> utility.
     /// </summary>
     public static readonly DisplayEnum None = new("hidden");
     /// <summary>
